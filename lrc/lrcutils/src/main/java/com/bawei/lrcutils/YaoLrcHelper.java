@@ -25,6 +25,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class YaoLrcHelper {
+
     public static Handler  handler = new Handler();
     private static final String CHARSET = "utf-8";
     //[03:56.00][03:18.00][02:06.00][01:07.00]原谅我这一生不羁放纵爱自由
