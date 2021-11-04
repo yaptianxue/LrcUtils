@@ -4,7 +4,7 @@ import android.content.Context;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 
-public class PhoneUtils {
+public class PhoneStateUtils {
     public static final int STATE_IN = 0;
     public static final int STATE_OUT = 1;
    public static void checkState(Context context, final PhoneStateCallBack phoneStateCallBack){
