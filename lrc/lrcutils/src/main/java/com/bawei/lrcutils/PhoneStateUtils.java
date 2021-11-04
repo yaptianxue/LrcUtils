@@ -31,7 +31,7 @@ public class PhoneStateUtils {
      },PhoneStateListener.LISTEN_CALL_STATE);
 
  }
-    interface PhoneStateCallBack{
+   public interface PhoneStateCallBack{
         void onCallStateChanged(int state);
     }
 }
