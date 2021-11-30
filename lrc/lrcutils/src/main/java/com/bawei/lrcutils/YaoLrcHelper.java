@@ -41,6 +41,7 @@ public class YaoLrcHelper {
         return null;
     }
 
+
     public static List<Lrc> parseLrcFromFile(File file) {
         try {
             return parseInputStream(new FileInputStream(file));
