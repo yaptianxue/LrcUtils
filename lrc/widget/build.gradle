@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin:'maven-publish'
+
 
 android {
     compileSdkVersion 30
@@ -23,18 +23,6 @@ android {
         }
     }
 
-}
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-//                from components.release
-                groupId = 'com.wustyq.ToastLib' //groupId 随便取
-                artifactId = 'wustyq'  //artifactId 随便取
-                version = '1.0.0'
-            }
-        }
-    }
 }
 
 
