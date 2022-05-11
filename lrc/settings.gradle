@@ -1,2 +1,2 @@
-include ':app', ':lrcutils'
+include ':app', ':lrcutils', ':widget'
 rootProject.name='lrc'
