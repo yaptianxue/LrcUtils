@@ -44,9 +44,14 @@ public class SwipeImageView extends AppCompatImageView {
         }else if(action == MotionEvent.ACTION_MOVE){
            ix= x-sx;
            if(ix <=-100){//左滑动
-               swipeLister.onLeft();
+               if(swipeLister != null){
+                   swipeLister.onLeft();
+               }
+
            }else if(ix>=100){//右滑动
-               swipeLister.onRight();
+               if(swipeLister != null){
+                   swipeLister.onRight();
+               }
            }
 
         }else if(action == MotionEvent.ACTION_UP){
